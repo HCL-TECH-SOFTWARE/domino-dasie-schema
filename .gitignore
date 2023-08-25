@@ -1,0 +1,9 @@
+/**/target
+/**/*.key
+/**/*.crt
+/**/*.pem
+/c_napi/libs/notes
+/c_napi/src/lib.rs
+/export
+/export.nsf
+/local
