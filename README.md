@@ -44,6 +44,7 @@ are (or will be) referenced by the latest version.
 * [CDPABREFERENCE](./cdrecs/cd-pabreference-v1.md)
 * [CDSTYLENAME](./cdrecs/cd-stylename-v1.md)
 * [CDTABLELABEL](./cdrecs/cd-tablelabel-v1.md)
+* [CDTEXT](./cdrecs/cd-text-v1.md)
 
 # Item Schemas
 Only the latest version of schemas will be listed here. Older schema versions
