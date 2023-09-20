@@ -14,26 +14,36 @@
    the License.
 -->
 
-# COLOR_VALUE
+# TIMEDATE
 
 A
-[COLOR_VALUE](https://opensource.hcltechsw.com/domino-c-api-docs/reference/Data/COLOR_VALUE/).
+[TIMEDATE](https://opensource.hcltechsw.com/domino-c-api-docs/reference/Data/TIMEDATE/).
 
 ## Example
 ```yaml
-Flags: 0x0001
-rgb: 0xffff00
+dst: true
+data: "2005-10-11T12:56:51.82-04:00"
 ```
 
-## Required properties
+## Optional properties
 
-### `Flags`
-* type: number
-* see:
-[COLOR_VALUE](https://opensource.hcltechsw.com/domino-c-api-docs/reference/Data/COLOR_VALUE/)
+### `allday`
+If the represented time is date-only.
+* type: boolean
+* Default: false
 
-### `rgb`
-32-bit rgb value (0xRRGGBB)
-* type: number
-* see:
-[COLOR_VALUE](https://opensource.hcltechsw.com/domino-c-api-docs/reference/Data/COLOR_VALUE/)
+### `anyday`
+If the represented time is time-only.
+* type: boolean
+* Default: false
+
+### `data`
+The time value of the field (if any) in
+[rfc3339](https://datatracker.ietf.org/doc/html/rfc3339) format.
+* type: string
+* Default: empty
+
+### `dst`
+If the represented time is/was in DST.
+* type: boolean
+* Default: false

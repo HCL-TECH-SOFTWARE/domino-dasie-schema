@@ -75,6 +75,7 @@ are (or will be) referenced by the latest version.
 # Value Schemas
 * [COLOR_VALUE](./values/color_value.md)
 * [LENGTH_VALUE](./values/length_value.md)
+* [TIMEDATE](./values/timedate.md)
 
 # Type definitions
 In this repository, there are references to "types" of data. Since the data

@@ -56,23 +56,4 @@ The type of item.
 
 ## Optional properties
 
-### `allday`
-If the represented time is date-only.
-* type: boolean
-* Default: false
-
-### `anyday`
-If the represented time is time-only.
-* type: boolean
-* Default: false
-
-### `data`
-The time value of the field (if any) in
-[rfc3339](https://datatracker.ietf.org/doc/html/rfc3339) format.
-* type: string
-* Default: empty
-
-### `dst`
-If the represented time is/was in DST.
-* type: boolean
-* Default: false
+All optional properties from [TIMEDATE](../values/timedate.md)

@@ -65,8 +65,6 @@ signed: true
 ### `data`
 The list of ranges of times for the item.
 * type: [
-    [`Item-Time`](./item-time-v1.md#optional-properties),
-    [`Item-Time`](./item-time-v1.md#optional-properties)
+    [`TIMEDATE`](../values/timedate.md),
+    [`TIMEDATE`](../values/timedate.md)
   ][]
-* Note: The object values **only** contains optional properties defined for
-[Item-Time](./item-time-v1.md#optional-properties).

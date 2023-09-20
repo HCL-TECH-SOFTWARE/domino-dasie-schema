@@ -19,7 +19,7 @@
 A
 [LENGTH_VALUE](https://opensource.hcltechsw.com/domino-c-api-docs/reference/Data/LENGTH_VALUE/).
 
-## Examples
+## Example
 ```yaml
 Flags: 0x0000
 Length:
