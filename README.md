@@ -41,6 +41,7 @@ are (or will be) referenced by the latest version.
 * [CDIDNAME](./cdrecs/cd-idname-v1.md)
 * [CDLSOBJECT](./cdrecs/cd-lsobject-v1.md)
 * [CDPABDEFINITION](./cdrecs/cd-pabdefinition-v1.md)
+* [CDPABHIDE](./cdrecs/cd-pabhide-v1.md)
 * [CDPABREFERENCE](./cdrecs/cd-pabreference-v1.md)
 * [CDSTYLENAME](./cdrecs/cd-stylename-v1.md)
 * [CDTABLELABEL](./cdrecs/cd-tablelabel-v1.md)
